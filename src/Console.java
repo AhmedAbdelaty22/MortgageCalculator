@@ -8,7 +8,7 @@ public class Console {
         double value;
 
         while (true) {
-            System.out.print(prompt);
+            IO.print(prompt);
             value = sc.nextDouble();
             if (value >= min && value <= max) {
                 break;
