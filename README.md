@@ -55,7 +55,7 @@ $0.00
 
 ## Requirements
 
-- Java 25 or newer. `Main.java` is a compact source file (`void main()` with no class around it), which became standard in Java 25.
+- Java 25 or newer. `Main.java` is a compact source file (`void main()` with no class around it) and the code uses the `IO` class, both standard since Java 25.
 
 ## How to run
 

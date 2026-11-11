@@ -15,15 +15,15 @@ public class MortgageReport {
 
         String MortgageFormatted = currency.format(Mortgage);
 
-        System.out.println("Mortgage");
-        System.out.println("------------------------------------------------------------");
-        System.out.println("Monthly Payment is : " + MortgageFormatted);
-        System.out.println("------------------------------------------------------------");
+        IO.println("Mortgage");
+        IO.println("------------------------------------------------------------");
+        IO.println("Monthly Payment is : " + MortgageFormatted);
+        IO.println("------------------------------------------------------------");
     }
 
     public void printPaymentSchedule() {
-        System.out.println("Payment Schedule");
-        System.out.println("------------------------------------------------------------");
+        IO.println("Payment Schedule");
+        IO.println("------------------------------------------------------------");
 
         for (double balance : calculator.getRemainingBalances()) {
             String balanceFormatted = currency.format(balance);

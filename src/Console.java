@@ -13,7 +13,7 @@ public class Console {
             if (value >= min && value <= max) {
                 break;
             }
-            System.out.println("Please Enter a Value Between " + min + " and " + max);
+            IO.println("Please Enter a Value Between " + min + " and " + max);
         }
         return value;
     }
